@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "enders-emeralditems",
+	"version": "${version}",
+	"name": "EnderBoy9217's Emerald Items",
+	"description": "Adds emerald tools, armor, and horse armor to Minecraft! Also adds them to certain vanilla chests.",
+	"authors": [
+		"EnderBoy9217"
+	],
+	"contact": {
+		"sources": "https://github.com/EnderBoy9217/Enders-EmeraldItems",
+		"discord": "https://discord.gg/V3PYqq9UvD"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/enders-emeralditems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.enderboy9217.emeralditems.EndersEmeraldItems"
+		],
+		"fabric-datagen": [
+			"com.enderboy9217.emeralditems.EndersEmeraldItemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"enders-emeralditems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
