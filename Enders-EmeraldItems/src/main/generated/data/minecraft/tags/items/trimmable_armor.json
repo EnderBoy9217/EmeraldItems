@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enders-emeralditems:emerald_helmet",
+    "enders-emeralditems:emerald_chestplate",
+    "enders-emeralditems:emerald_leggings",
+    "enders-emeralditems:emerald_boots"
+  ]
+}
