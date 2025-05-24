@@ -14,7 +14,7 @@ public class EmeraldItemGroups {
     public static final ItemGroup emeraldItems = Registry.register(Registries.ITEM_GROUP,
             new Identifier(EndersEmeraldItems.MOD_ID, "emeralditems"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.emeralditems"))
-                    .icon(() -> new ItemStack(EmeraldItems.EMERALD_SWORD)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(EmeraldItems.EMERALD_AXE)).entries((displayContext, entries) -> {
                         entries.add(EmeraldItems.EMERALD_SWORD);
                         entries.add(EmeraldItems.EMERALD_PICKAXE);
                         entries.add(EmeraldItems.EMERALD_AXE);
