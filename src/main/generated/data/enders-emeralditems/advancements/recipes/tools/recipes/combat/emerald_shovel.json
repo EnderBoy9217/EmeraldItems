@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:emerald_hoe"
+        "recipe": "enders-emeralditems:recipes/combat/emerald_shovel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:emerald_hoe"
+      "enders-emeralditems:recipes/combat/emerald_shovel"
     ]
   },
   "sends_telemetry_event": false

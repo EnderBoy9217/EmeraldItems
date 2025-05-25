@@ -35,7 +35,7 @@ public class EmeraldItems {
 
     // Horse Armor
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor",
-        new HorseArmorItem(7, "emerald", new FabricItemSettings()));
+        new HorseArmorItem(7, "emerald", new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries)
     {

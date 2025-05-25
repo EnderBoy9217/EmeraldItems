@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:emerald_leggings"
+        "recipe": "enders-emeralditems:recipes/combat/emerald_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:emerald_leggings"
+      "enders-emeralditems:recipes/combat/emerald_pickaxe"
     ]
   },
   "sends_telemetry_event": false

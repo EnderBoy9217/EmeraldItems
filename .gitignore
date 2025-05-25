@@ -27,3 +27,5 @@ replay_pid*
 /Enders-EmeraldItems/.idea
 /build
 /Enders-EmeraldItems/run
+/run
+/src/main/generated/.cache
