@@ -20,5 +20,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                     EmeraldItems.EMERALD_CHESTPLATE,
                     EmeraldItems.EMERALD_LEGGINGS,
                     EmeraldItems.EMERALD_BOOTS);
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(EmeraldItems.EMERALD_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(EmeraldItems.EMERALD_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(EmeraldItems.EMERALD_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(EmeraldItems.EMERALD_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(EmeraldItems.EMERALD_HOE);
     }
 }

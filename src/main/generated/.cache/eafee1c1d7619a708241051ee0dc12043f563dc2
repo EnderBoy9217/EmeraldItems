@@ -1,2 +1,7 @@
-// 1.20.1	2025-05-25T16:23:58.717529	EnderBoy9217's Emerald Items/Tags for minecraft:item
-7eb60483eba0bd1ec660887628a7d40adaa82ec6 data/minecraft/tags/items/trimmable_armor.json
+// 1.20.1	2025-08-17T12:28:12.1509446	EnderBoy9217's Emerald Items/Tags for minecraft:item
+7eb60483eba0bd1ec660887628a7d40adaa82ec6 data\minecraft\tags\items\trimmable_armor.json
+c769a24b43127c5d02be2a835ab1cbd10280417b data\minecraft\tags\items\swords.json
+269f803f2b10169950802ddac9abc88877e2c9a0 data\minecraft\tags\items\pickaxes.json
+441e0974e173263d04751e3c0dd01a6dcd122b7e data\minecraft\tags\items\axes.json
+ef91ecff1ee6fdebbee0dc156c32fd20dd43f62b data\minecraft\tags\items\hoes.json
+10ffacfc5a07a20c0efcf91026388cc1014e6310 data\minecraft\tags\items\shovels.json
