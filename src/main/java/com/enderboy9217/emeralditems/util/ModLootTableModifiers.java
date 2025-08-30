@@ -97,15 +97,14 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder();
 
                 if (!enchanted) {
-                    // Add the conditional loot entry for the helmet
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_CHESTPLATE)
                                     .conditionally(RandomChanceLootCondition.builder(chestplate_chance))
                             );
                 } else {
                     // Add enchantment with levels entry
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_CHESTPLATE)
                                     .conditionally(RandomChanceLootCondition.builder(chestplate_chance))
                                     .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                             .allowTreasureEnchantments()
@@ -143,13 +142,13 @@ public class ModLootTableModifiers {
                 if (!enchanted) {
                     // Add the conditional loot entry for the helmet
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_LEGGINGS)
                                     .conditionally(RandomChanceLootCondition.builder(leggings_chance))
                             );
                 } else {
                     // Add enchantment with levels entry
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_LEGGINGS)
                                     .conditionally(RandomChanceLootCondition.builder(leggings_chance))
                                     .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                             .allowTreasureEnchantments()
@@ -181,13 +180,13 @@ public class ModLootTableModifiers {
                 if (!enchanted) {
                     // Add the conditional loot entry for the helmet
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_BOOTS)
                                     .conditionally(RandomChanceLootCondition.builder(boots_chance))
                             );
                 } else {
                     // Add enchantment with levels entry
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_BOOTS)
                                     .conditionally(RandomChanceLootCondition.builder(boots_chance))
                                     .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                             .allowTreasureEnchantments()
@@ -228,20 +227,20 @@ public class ModLootTableModifiers {
                 if (!enchanted) {
                     // Add the conditional loot entry for the helmet
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_SWORD)
                                     .conditionally(RandomChanceLootCondition.builder(sword_chance))
                             );
                 } else if (!damaged){
                     // Add enchantment with levels entry
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_SWORD)
                                     .conditionally(RandomChanceLootCondition.builder(sword_chance))
                                     .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                             .allowTreasureEnchantments()
                                     )
                             );
                 } else {
-                    poolBuilder.with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                    poolBuilder.with(ItemEntry.builder(EmeraldItems.EMERALD_SWORD)
                             .conditionally(RandomChanceLootCondition.builder(sword_chance))
                             .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                     .allowTreasureEnchantments()
@@ -276,13 +275,12 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder();
 
                 if (!enchanted) { // Enchanted is always true because there are no un-enchanted drops
-                    // Add the conditional loot entry for the helmet
                     poolBuilder
-                            .with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                            .with(ItemEntry.builder(EmeraldItems.EMERALD_SHOVEL)
                                     .conditionally(RandomChanceLootCondition.builder(shovel_chance))
                             );
                 } else {
-                    poolBuilder.with(ItemEntry.builder(EmeraldItems.EMERALD_HELMET)
+                    poolBuilder.with(ItemEntry.builder(EmeraldItems.EMERALD_SHOVEL)
                             .conditionally(RandomChanceLootCondition.builder(shovel_chance))
                             .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(20, 39))
                                     .allowTreasureEnchantments()
